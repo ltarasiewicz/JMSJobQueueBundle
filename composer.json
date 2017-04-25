@@ -11,6 +11,12 @@
             "email":  "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mkocztorz/JMSJobQueueBundle"
+        }
+    ],
     "require": {
         "symfony/framework-bundle": "~3.2.7",
         "doctrine/common": ">=2.3,<3.0",
@@ -32,6 +38,9 @@
         "symfony/form": "*",
         "symfony/validator": "*",
         "pagerfanta/pagerfanta": "dev-master"
+    },
+    "replace": {
+        "mkocztorz/jms-job-queue-bundle": "*"
     },
     "suggest": {
         "pagerfanta/pagerfanta": "Required when using the webinterface.",
